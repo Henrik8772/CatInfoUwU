@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <span class="menu-icon" onclick="toggleMenu()">☰</span>
+        <div class="menu-links" id="menu">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+    <main>
+        <h1>Rubrik nivå 1</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo laborum fugit eaque totam perferendis impedit
+            minima, placeat unde labore suscipit obcaecati vel debitis, cupiditate rem quae natus. Pariatur, rerum!
+            Vitae?</p>
+    </main>
+</body>
+
+<script>
+    function toggleMenu() {
+        document.getElementById("menu").classList.toggle("active");
+    }
+</script>
+
+</html>
